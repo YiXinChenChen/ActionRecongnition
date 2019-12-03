@@ -8,7 +8,8 @@ Recognizing human action in video is an important task with a wide range of appl
 
 ## Network Architecture
 <img src='imgs/Model_structure.jpg' align="left">
-
+  
+  
 ## Dependencies
 + Python == 2.7
 + Numpy == 1.16
@@ -72,6 +73,11 @@ First line: Continuous frames; Second line: Atention maps corresponding to the a
 Left: Feature maps without regularization; Right: Feature maps with regularization
 <img src='imgs/Result_comp.jpg' align="left">
 
+
+## Notes
+
+- This is developed on Linux machine running Ubuntu 14.04
+- Provided model and sample code is under a non-commercial creative commons license.
 
 ## Citing
 ```
