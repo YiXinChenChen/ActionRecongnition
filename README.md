@@ -7,7 +7,7 @@ Yuhui Quan, Yixin Chen, Ruotao Xu, Hui ji
 Recognizing human action in video is an important task with a wide range of applications. Recently, motivated by the findings in human visual perception, there have been numerous attempts on introducing attention mechanisms to action recognition systems. However, it is empirically observed that an implementation of attention mechanism using attention mask of free form often generates ineffective distracted attention regions caused by overfitting, which limits the benefit of attention mechanisms for action recognition. By exploiting block-structured sparsity prior on attention regions, this paper proposed an L_2,1-norm group sparsity regularization for learning structured attention masks. Built upon such a regularized attention module, an attention-based recurrent network is developed for action recognition. The experimental results on two benchmark datasets showed that, the proposed method can noticeably improve the accuracy of attention masks, which results in performance gain in action recognition.
 
 ## Network Architecture
-< img src='imgs/Model structure.jpg' align="left" >
+< img src='imgs/Model_structure.jpg' align="left" >
 
 ## Dependencies
 + Python == 2.7
@@ -65,12 +65,12 @@ Explanation of the parameters
 ## Example Results
 #### Atention visualization
 First line: Continuous frames; Second line: Atention maps corresponding to the action
-< img src='imgs/Result sample.jpg' align="left" >
+< img src='imgs/Result_sample.jpg' align="left" >
 
 
 #### Comparison visualization
 Left: Feature maps without regularization; Right: Feature maps with regularization
-< img src='imgs/Result comp.jpg' align="left" >
+< img src='imgs/Result_comp.jpg' align="left" >
 
 
 ## Citing
